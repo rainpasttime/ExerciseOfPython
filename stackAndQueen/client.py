@@ -1,0 +1,10 @@
+from stackAndQueen import *
+s = Solution()
+s.push("a")
+print s.pop()
+s.push("a")
+s.push("b")
+s.push("c")
+print s.pop()
+s.push("a")
+print s.pop()
